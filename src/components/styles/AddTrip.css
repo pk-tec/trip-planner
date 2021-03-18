@@ -1,0 +1,52 @@
+.form-date-container {
+	width: 100%;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	display: grid;
+	justify-items: center;
+	border: 2px solid gray;
+	border-radius: 10px;
+	margin: 0 5%;
+	padding: 5%;
+	box-sizing: border-box;
+	color: #333333;
+	font-family: Helvetica, Arial, sans-serif;
+	box-shadow: 0px 0px 17px 1px #1d1f26;
+	background: #f7f7fa;
+}
+
+.label-text {
+	display: block;
+	font-size: 16px;
+	margin-bottom: 4px;
+	text-align: center;
+	color: #777;
+}
+
+.date-input {
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	border-radius: 5px;
+	margin: 10px 10px;
+}
+
+.place-input {
+	width: 100%;
+	text-align: center;
+	border: 1px solid #eeeeee;
+	outline: none;
+}
+
+.sub-btn {
+	cursor: pointer;
+    margin: 10px;
+	padding: 12px;
+	background: #7c5cbf;
+	border: none;
+    border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	transition: background 0.3s ease;
+}

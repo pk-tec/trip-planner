@@ -67,10 +67,12 @@ class App extends React.Component {
 	// Switch goes to first matching route
 	render() {
 		return (
-			<div className="app">
+			<div className="App">
 				<Router>
 					<div className="route-container">
-						<Nav />
+						<div className="nav">
+							<Nav />
+						</div>
 						<Switch>
 							<Route
 								exact

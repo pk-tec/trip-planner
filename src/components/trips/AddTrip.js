@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../styles/AddTrip.css";
 const AddTrip = ({ newTrip }) => {
 	let date, place;
 	const submit = (e) => {
@@ -21,6 +21,7 @@ const AddTrip = ({ newTrip }) => {
 					Date: <br />
 					<input
 						id="date"
+						className='date-input'
 						type="date"
 						required
 						ref={(input) => (date = input)}
@@ -30,14 +31,14 @@ const AddTrip = ({ newTrip }) => {
 					Place: <br />
 					<input
 						id="date"
+						className='place-input'
 						type="text"
 						required
 						ref={(input) => (place = input)}
 					/>
 				</label>
 
-				<input type="submit" value="SUBMIT" />
-				
+				<input type="submit" value="SUBMIT" className='sub-btn' />
 			</form>
 		</div>
 	);

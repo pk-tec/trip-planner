@@ -1,5 +1,6 @@
 import React from "react";
 import Trip from "./Trip";
+import '../styles/TripList.css'
 
 const TripsList = ({ match, days }) => {
 	const filter = match.params.filter;
@@ -7,7 +8,7 @@ const TripsList = ({ match, days }) => {
 	return (
 		<div className="trips-list">
 			<h3>{filter ? filter : "All"} Trips</h3>
-			<table class="table">
+			<table className="table">
 				<thead>
 					<tr>
 						<th>Date</th>
